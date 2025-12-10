@@ -1,11 +1,12 @@
-import React from 'react'
-import HeroSection from '../components/heroSection'
-import Company from '../components/cards/company'
-import Feature from '../components/Feature'
-import Services from '../components/Services'
-import ExplorProject from '../components/ExplorProject'
-import OurProducts from '../components/ourProducts'
-
+import React from "react";
+import HeroSection from "../components/heroSection";
+import Company from "../components/cards/company";
+import Feature from "../components/Feature";
+import Services from "../components/Services";
+import ExplorProject from "../components/ExplorProject";
+import OurProducts from "../components/ourProducts";
+import WorkCulture from "../components/workCulture";
+import Pricing from "../components/Pricing";
 
 function Page() {
   return (
@@ -16,8 +17,11 @@ function Page() {
       <ExplorProject />
       <Services />
       <OurProducts />
+      <WorkCulture />
+      <Pricing />
+
     </div>
   );
 }
 
-export default Page
+export default Page;

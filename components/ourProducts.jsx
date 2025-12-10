@@ -77,7 +77,15 @@ export default function OurProducts() {
 
   return (
     <div className="min-h-screen bg-black p-8">
-      <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="text-center mb-16">
+        <span className="text-2xl md:text-3xl font-bold px-6 py-3 rounded-full   bg-gray-200  inline-block backdrop-blur-sm text-black">
+          Solutions we prepared
+        </span>
+        <h1 className="text-7xl md:text-6xl font-bold text-center text-white mt-6 mb-4">
+          OUR Products
+        </h1>
+      </div>
+      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
         {products.map((product) => (
           <div
             key={product.id}

@@ -7,7 +7,7 @@ import TiltImage from "./TiltImage";
 function HeroSection() {
   return (
     <div className="relative w-full min-h-screen overflow-hidden flex flex-wrap-reverse items-center justify-center">
-      <TiltImage
+      <img
         src="/hero-top-gradient.webp"
         alt=""
         className="w-full h-full object-cover absolute inset-0 justify-center items-center flex"
