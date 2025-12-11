@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Phone, MessageCircle, Linkedin, Calendar } from "lucide-react";
-import ServiceCardItem from "../ServiceCardItem";
+import ServiceCardItem from "../ui/ServiceCardItem";
 
-function Services() {
+function ServicesCard() {
   const services = [
     {
       id: "01",
@@ -46,7 +46,7 @@ function Services() {
   const [hoveredService, setHoveredService] = useState(null);
 
   return (
-    <div className="bg-gray-900 backdrop-blur-lg shadow-lg w-[26rem] h-[28rem] transition-all duration-300 ease-in-out z-50 md:absolute md:left-0 md:right-0 md:mt-2 md:max-w-4xl md:mx-auto md:transform md:opacity-0 md:translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 overflow-hidden rounded-2xl">
+    <div className="bg-gray-900 backdrop-blur-lg shadow-lg w-[26rem] h-[28rem] transition-all duration-300 ease-in-out z-50 overflow-hidden ">
       <div className="grid grid-cols-1 gap-4 h-full p-4">
         <div className="grid grid-cols-1 gap-4 flex-grow">
           {services.map((service) => (
@@ -87,4 +87,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default ServicesCard;

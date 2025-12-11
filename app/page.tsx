@@ -1,12 +1,15 @@
 import React from "react";
-import HeroSection from "../components/heroSection";
+import HeroSection from "../components/sections/heroSection";
 import Company from "../components/cards/company";
-import Feature from "../components/Feature";
-import Services from "../components/Services";
-import ExplorProject from "../components/ExplorProject";
-import OurProducts from "../components/ourProducts";
-import WorkCulture from "../components/workCulture";
-import Pricing from "../components/Pricing";
+import Feature from "../components/sections/Feature";
+import Services from "../components/sections/Services";
+import ExplorProject from "../components/sections/ExplorProject";
+import OurProducts from "../components/sections/ourProducts";
+import WorkCulture from "../components/sections/workCulture";
+import DifferenceSection from "../components/sections/DifferenceSection";
+import Pricing from "../components/sections/Pricing";
+import SuccessStories from "../components/sections/SuccessStory";
+import Exparts from "../components/sections/Exparts";
 
 function Page() {
   return (
@@ -19,7 +22,9 @@ function Page() {
       <OurProducts />
       <WorkCulture />
       <Pricing />
-
+      <DifferenceSection/>
+      <SuccessStories />
+      <Exparts />
     </div>
   );
 }

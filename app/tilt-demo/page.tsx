@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import TiltCard from "../../components/TiltCard";
-import TiltImage from "../../components/TiltImage";
+import TiltCard from "../../components/ui/TiltCard";
+import TiltImage from "../../components/ui/TiltImage";
 
 function TiltDemoPage() {
   return (
